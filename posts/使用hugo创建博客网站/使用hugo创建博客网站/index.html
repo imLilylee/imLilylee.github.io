@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Search Results</title>
+    <title>使用hugo创建博客网站</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -22,25 +22,26 @@
 
 
 
-<meta property="og:title" content="Search Results" />
-<meta property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;] ```" />
+<meta property="og:title" content="使用hugo创建博客网站" />
+<meta property="og:description" content="使用hugo创建博客网站" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://imLilylee.github.io/search/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2010-06-08T08:06:25+06:00" />
-<meta property="article:modified_time" content="2010-06-08T08:06:25+06:00" />
+<meta property="og:url" content="https://imLilylee.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-22T23:25:14+08:00" />
+<meta property="article:modified_time" content="2022-03-22T23:25:14+08:00" />
 
 
 
     
     
-    <link rel="stylesheet" href="/css/layouts/list.css">
-    <link rel="stylesheet" href="/css/navigators/sidebar.css">
-    
-    <link rel="stylesheet" href="/css/style.css"/>
+<meta name="description" content="使用hugo创建博客网站" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+<link rel="stylesheet" href="/css/style.css"/>
 
 
 
@@ -94,9 +95,6 @@ Initial setup Search depends on additional output content type of JSON in config
 
       
       
-  
-  
-
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
@@ -121,9 +119,12 @@ Initial setup Search depends on additional output content type of JSON in config
   
   
   
+    
+    
+  
   
     
-    <li><a class="" href="/posts/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/" title="使用hugo创建博客网站">使用hugo创建博客网站</a></li>
+    <li><a class="active" href="/posts/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/" title="使用hugo创建博客网站">使用hugo创建博客网站</a></li>
   
 
 
@@ -138,38 +139,204 @@ Initial setup Search depends on additional output content type of JSON in config
       
       
 <section class="content-section" id="content-section">
-  <div class="content container-fluid" id="content">
-    <div class="container-fluid post-card-holder" id="post-card-holder">
-      <div id="search-results">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://imLilylee.github.io/images/default-hero.jpg);'>
+      </div>
 
-        <script id="search-result-template" type="text/x-js-template">
-          <div class="post-card">
-            <a href="${link}" class="post-card-link">
-              <div class="card" style="min-height: 352px;"><a href="${link}" class="post-card-link">
-                <div class="card-head">
-                  <img class="card-img-top" src="${hero}" alt="Card Heading Image">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">${title}</h5>
-                  <p class="card-text post-summary">${summary}</p>
-                </div>
-                <div class="card-footer">
-                  <span class="float-left">${date}</span>
-                  <a href="${link}" class="float-right btn btn-outline-info btn-sm">Read</a>
-                </div>
-              </div>
-	          </a>
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/default-avatar_hu9bf48a08e17db6472c2e32b73058a6bb_47653_120x120_fit_box_3.png' alt="Author Image">
+          <h5 class="author-name">Lily Lee</h5>
+          <p>Tuesday, March 22, 2022</p>
+        </div>
+
+        <div class="title">
+          <h1>使用hugo创建博客网站</h1>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <h3 id="参考文档">参考文档</h3>
+<ul>
+<li><a href="https://www.gohugo.org/">https://www.gohugo.org/</a></li>
+<li><a href="https://toha-guides.netlify.app/posts/getting-started/prepare-site/">https://toha-guides.netlify.app/posts/getting-started/prepare-site/</a></li>
+</ul>
+<h3 id="主题">主题</h3>
+<ul>
+<li>toha</li>
+</ul>
+<h3 id="步骤">步骤</h3>
+<h4 id="1-安装hugo">1. 安装hugo</h4>
+<ul>
+<li>
+<p>打开 <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a> ，选择hugo_extended_0.95.0_Windows-64bit.zip 下载</p>
+</li>
+<li>
+<p>解压 hugo_extended_0.95.0_Windows-64bit.zip</p>
+</li>
+<li>
+<p>将hugo.exe所在目录添加到系统环境变量path中</p>
+</li>
+<li>
+<p>在命令行输入 <code>hugo version</code> ,如果输出版本即安装成功！</p>
+</li>
+</ul>
+<h4 id="2-生成站点">2. 生成站点</h4>
+<ul>
+<li>
+<p>创建一个目录，用于存放站点内容。</p>
+</li>
+<li>
+<p>进入到目录下，输入以下命令：
+<code>hugo new site ./ -f=yaml --force</code></p>
+<p>这样就在目录里生成了初始站点。站点目录结构：</p>
+<pre tabindex="0"><code>archetypes/
+content/
+layouts/
+static/
+config.yaml
+</code></pre></li>
+</ul>
+<h4 id="3-添加主题">3. 添加主题</h4>
+<p><code>git submodule add https://github.com/hugo-toha/toha.git themes/toha</code></p>
+<h4 id="4-本地运行站点">4. 本地运行站点</h4>
+<p><code>hugo server --theme=toha --buildDrafts</code></p>
+<p>此时，打开 http://localhost:1313 就可以看到网站了。</p>
+<h4 id="5-配置网站">5. 配置网站</h4>
+<p>此处暂时省略</p>
+<h4 id="6-添加posts">6. 添加posts</h4>
+<p><code>hugo new posts/xxx/xxx.md</code></p>
+<h4 id="7-部署到远程github-page">7. 部署到远程Github Page</h4>
+<ul>
+<li>在github上新建仓库，并以“你的github用户名.github.io”命名仓库</li>
+<li>在本地运行<code>hugo --theme=hyde --baseUrl=&quot;http://你的github用户名.github.io/&quot;</code>生成静态页面,这些都会生成到 <code>public</code> 目录。
+（<strong>注意</strong>，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉post文章头部的 <code>draft=true</code> 再重新生成。）</li>
+<li>将<code>public</code>目录下的所有文件push到刚创建的 github仓库 中</li>
+</ul>
+<pre tabindex="0"><code>$ cd public
+$ git init
+$ git remote add origin https://github.com/你的github用户名/你的github用户名.github.io.git
+$ git add .
+$ git commit -m &#34;xxx&#34;
+$ git push -u origin master
+</code></pre>
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
           </div>
-        </script>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/hugo-toha/hugo-toha.github.io/edit/main/content/posts%5c%e4%bd%bf%e7%94%a8hugo%e5%88%9b%e5%bb%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%5c%e4%bd%bf%e7%94%a8hugo%e5%88%9b%e5%bb%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99.md" title="Improve this page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+    
+    
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/posts/introduction/" title="Introduction" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Introduction</div>
+      </a>
+    </div>
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+      
+      
 
       </div>
     </div>
   </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
 </section>
 
 
       
-       
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#参考文档">参考文档</a></li>
+        <li><a href="#主题">主题</a></li>
+        <li><a href="#步骤">步骤</a>
+          <ul>
+            <li><a href="#1-安装hugo">1. 安装hugo</a></li>
+            <li><a href="#2-生成站点">2. 生成站点</a></li>
+            <li><a href="#3-添加主题">3. 添加主题</a></li>
+            <li><a href="#4-本地运行站点">4. 本地运行站点</a></li>
+            <li><a href="#5-配置网站">5. 配置网站</a></li>
+            <li><a href="#6-添加posts">6. 添加posts</a></li>
+            <li><a href="#7-部署到远程github-page">7. 部署到远程Github Page</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
     </div>
 
     
@@ -376,9 +543,18 @@ Initial setup Search depends on additional output content type of JSON in config
 
     
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
-<script src="https://imLilylee.github.io/js/search.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+
+
+
 
 
     
