@@ -33,10 +33,10 @@
     
     <item>
       <title>使用hugo创建博客网站</title>
-      <link>https://imLilylee.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
+      <link>https://imLilylee.github.io/posts/use_hugo_create_blog/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
       <pubDate>Tue, 22 Mar 2022 23:25:14 +0800</pubDate>
       
-      <guid>https://imLilylee.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
+      <guid>https://imLilylee.github.io/posts/use_hugo_create_blog/%E4%BD%BF%E7%94%A8hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
       <description>参考文档  https://www.gohugo.org/ https://toha-guides.netlify.app/posts/getting-started/prepare-site/  主题  toha  步骤 1. 安装hugo   打开 https://github.com/gohugoio/hugo/releases ，选择hugo_extended_0.95.0_Windows-64bit.zip 下载
   解压 hugo_extended_0.95.0_Windows-64bit.zip
   将hugo.exe所在目录添加到系统环境变量path中
